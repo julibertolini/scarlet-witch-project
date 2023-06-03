@@ -3,13 +3,45 @@
     padding: 0;
 }
 
+header {
+    background-color: #FF2400;
+    color: #FDF1D6;
+    height: 70px;
+    padding-top: 5px;
+}
+
+header a {
+    color: #FDF1D6; 
+    font-weight: 600;
+}
+
 body {
     background-color: #FDF1D6;
     color: #FF2400;
     font-family: 'Marvel', sans-serif;
 }
 
+main {
+    padding-top: 20px;
+    text-align: center;
+    height: 620px; 
+}
+
+button {
+    font-family: 'Marvel', sans-serif;
+    background-color: #FF2400;
+    color: #FDF1D6;
+
+}
+
 footer {
+    background-color: #FF2400;
+    color: #FDF1D6;
     margin-top: 2rem;
     text-align: center;
+    height: 50px;
+}
+
+footer p {
+    padding: 10px; 
 }
