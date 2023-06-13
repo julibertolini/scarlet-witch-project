@@ -27,6 +27,20 @@ main {
     height: 620px; 
 }
 
+.main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.powers {
+    max-width: 50%;
+}
+
 button {
     font-family: 'Marvel', sans-serif;
     background-color: #FF2400;
@@ -37,9 +51,7 @@ button {
 footer {
     background-color: #FF2400;
     color: #FDF1D6;
-    margin-top: 2rem;
     text-align: center;
-    height: 50px;
 }
 
 footer p {
