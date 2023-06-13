@@ -13,10 +13,25 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 20px;
 }
 
 header img {
     height: 30px;
+}
+
+.logo {
+    width: 20%;
+}
+
+.heading {
+    font-size: 1.5rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
 }
 
 header a {
@@ -63,20 +78,64 @@ main {
     max-width: 50%;
 }
 
+ul {
+    list-style: none;
+}
+
 .button-div {
     margin-top: 40px;
 }
 
-button {
-    font-family: 'Marvel', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 700;
-    background-color: #FF2400;
-    color: #FDF1D6;
-    border: #FF2400 1px solid;
+.wrapper{
+    position: fixed;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .wrapper a{
+    display: block;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    font-family: 'Marvel';
+    text-decoration: none;
+    color: #FF2400;
+    border: 2px solid #ff2400;
     border-radius: 15px;
-    width: 20%;
-}
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  .wrapper a span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .wrapper a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ff003b;
+    border-radius: 15px;
+    transition: all .35s;
+  }
+  
+  .wrapper a:hover{
+    color: #fff;
+    border-radius: 15px;
+  }
+  
+  .wrapper a:hover:after{
+    width: 100%;
+    border-radius: 15px;
+  }
 
 footer {
     background-color: #FF2400;
@@ -86,5 +145,5 @@ footer {
 }
 
 footer p {
-    padding: 10px; 
+    padding: 15px; 
 }
